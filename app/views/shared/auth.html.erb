@@ -1,0 +1,5 @@
+<% if @is_login %>
+  <%= render partial: 'shared/auth/login' %>
+<% else %>
+  <%= render partial:  'shared/auth/register' %>
+<%end%>
